@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <title>INSIDER</title>
+    <meta charset="utf-8">
+    <style>
+      a{
+        color:black;
+        text-decoration: none;
+      }
+      .saw{
+        color:gray;
+      }
+      #active{
+        color:red;
+      }
+      h1{
+        font-size:60px;
+      }
+      h2{
+        text-align: center;
+      }
+      ul{
+        border-right: 1px solid gray;
+        width: 100px;
+        margin:0;
+        padding:20px;
+      }
+      #grid{
+        display:grid;
+        grid-tmeplate-colums: 150px 1fr;
+      }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125308750-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-125308750-1');
+    </script>
+
+  </head>
+
+  <body>
+    <img src="" width="100%">
+    <div>
+      <div id="grid">
+        <h2>목록</h2>
+        <ul>
+          <li><a href="Host.html" class="saw">Host</a></li>
+          <li><a href="Traveler.html" class="saw" id="active">Traveler</a></li>
+          <li><a href="Manager.html">Manager</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Our story</h2>
+        <p style="text-align:center">
+          we are startup with four university students
+        </p>
+      </div>
+      <div>
+        <h2>What We Do</h2>
+        <p style="text-align: center;">
+          matching
+        </p>
+      </div>
+    </div>
+    <p>
+    <div id="disqus_thread"></div>
+      <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://insider-3.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </p>
+    <p>
+      <script type="text/javascript">
+      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+      (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/5b9106e2f31d0f771d848059/default';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+      })();
+      </script>
+    </p>
+  </body>
+</html>
